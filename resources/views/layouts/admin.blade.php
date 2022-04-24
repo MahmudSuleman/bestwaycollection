@@ -31,6 +31,9 @@
     <!-- DataTables -->
     <link rel="stylesheet" href="{{asset('adminlte/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css')}}">
     <link rel="stylesheet" href="{{asset('adminlte/plugins/datatables-responsive/css/responsive.bootstrap4.min.css')}}">
+
+    <link rel="stylesheet" href="{{asset('adminlte/plugins/select2/css/select2.min.css')}}">
+
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
@@ -172,6 +175,7 @@
 <script src="{{asset('adminlte/dist/js/demo.js')}}"></script>
 
 
+<script src="{{asset('adminlte/plugins/select2/js/select2.js')}}"></script>
 
 
 @yield('scripts')

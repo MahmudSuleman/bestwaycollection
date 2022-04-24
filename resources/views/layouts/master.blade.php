@@ -14,6 +14,7 @@
           integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
 
+
     <title>BWC | @yield('title') </title>
 </head>
 
@@ -140,8 +141,10 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
 </script>
-<script src="js/main.js"></script>
-<script src="js/jquery-3.4.1.min.js"></script>
+{{--<script src="{{asset('js/main.js')}}"></script>--}}
+{{--<script src="{{asset('js/jquery-3.4.1.min.js')}}"></script>--}}
+
+<script src="{{asset('adminlte/plugins/select2/js/select2.js')}}"></script>
 </body>
 
 </html>
